@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+authors = [{name = "Kenji Aoki"}, {name = "Julia Sandberg"}]
+name = "orbitlab"
+version = "2.2.0"
+description = "Keplerian two-body mechanics with an iterative eccentric-anomaly solver."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+
+[tool.setuptools]
+packages = ["orbitlab"]
