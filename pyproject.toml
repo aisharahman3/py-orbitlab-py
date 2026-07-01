@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 authors = [{name = "Kenji Aoki"}, {name = "Julia Sandberg"}]
-name = "orbitlab"
+name = "orbitlab-py"
 version = "2.2.0"
 description = "Keplerian two-body mechanics with an iterative eccentric-anomaly solver."
 readme = "README.md"
