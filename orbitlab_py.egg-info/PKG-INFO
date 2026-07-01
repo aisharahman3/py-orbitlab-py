@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: orbitlab-py
+Version: 2.2.0
+Summary: Keplerian two-body mechanics with an iterative eccentric-anomaly solver.
+Author: Kenji Aoki, Julia Sandberg
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+orbitlab
+========
+
+Keplerian two-body mechanics with an iterative eccentric-anomaly solver.
+
+Usage::
+
+    import orbitlab
+    print(round(orbitlab.solve_kepler(0.7,1.0),6))
